@@ -12,7 +12,7 @@ jobs: #Works to be done
       uses: action/checkout@v2
     - name: Compile Java File
       shell: bash
-      run: javac Main.java
+      run: javac Main.java     
       shell: bash # What shell to use
       run: java Main.java # What it does
     - name: Rund the java file # name of steps
