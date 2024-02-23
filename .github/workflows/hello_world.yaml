@@ -7,9 +7,9 @@ on : # Whetn will it trigger
 jobs: #Works to be done 
   build_and_test: 
     runs-on: ubuntu-20.04
-  steps:
+    steps:
     - name: Clone Code
-    uses: action/checkout@v2
+      uses: action/checkout@v2
     - name: Compile Java File
      shell: bash
      run: javac Main.java
