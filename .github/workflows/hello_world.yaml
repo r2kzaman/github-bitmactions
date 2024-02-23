@@ -13,8 +13,6 @@ jobs: #Works to be done
     - name: Compile Java File
       shell: bash
       run: javac Main.java     
-      shell: bash # What shell to use
-      run: java Main.java # What it does
     - name: Rund the java file # name of steps
       shell: bash # What shell.to use
       run: java Main.java # what it does
